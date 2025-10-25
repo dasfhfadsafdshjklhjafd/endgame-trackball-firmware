@@ -1,0 +1,44 @@
+# Electronut Labs Papyr board configuration
+
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if BOARD_EFOGTECH_TRBL_52833
+
+config BOARD
+    default "efogtech_trackball_0"
+
+config ZMK_KEYBOARD_NAME
+    default "Endgame Trackball"
+
+config EC11
+    default y
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+config SPI
+    default y
+
+config BT_CTLR
+    default BT
+
+config ZMK_BLE
+	default y
+
+config ZMK_USB
+	default y
+
+config USB_DEVICE_STACK
+	default y
+
+config USB_NRFX
+    default y
+
+config PMW3610_INIT_POWER_UP_EXTRA_DELAY_MS
+    default EFOGTECH_TRACKBALL_PMW3610_EXTRA_WAKE_DELAY_MS if EFOGTECH_TRACKBALL_PMW3610_EXTRA_WAKE_DELAY
+
+endif # BOARD_EFOGTECH_TRBL_52833

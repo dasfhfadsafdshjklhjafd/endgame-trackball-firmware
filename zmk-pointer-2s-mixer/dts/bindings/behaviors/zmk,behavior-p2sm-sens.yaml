@@ -1,0 +1,38 @@
+description: Sensor sensitivity
+compatible: "zmk,behavior-p2sm-sens"
+include: two_param.yaml
+
+properties:
+  step:
+    type: int
+    required: true
+    default: 250 # must be a factor of (max-multiplier * 1000); step = percents * 10
+  min-step:
+    type: int
+    required: true
+    default: 1
+  max-step:
+    type: int
+    required: true
+    default: 1000 # 1000 effectively means "any number"
+
+  # for non-scroll behavior, max-multiplier is always 1
+  scroll:
+    type: boolean
+  max-multiplier:
+    type: int
+    default: 1 # one might need to disable high-res scroll for >1 to make sense
+
+  # can't go over maximum step when increasing value and vice versa
+  wrap:
+    type: boolean
+
+  feedback-gpios:
+    type: phandle-array
+  feedback-extra-gpios:
+    type: phandle-array
+  feedback-wrap-pattern:
+    type: array
+  feedback-duration:
+    type: int
+    default: 0

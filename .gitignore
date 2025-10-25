@@ -1,5 +1,6 @@
 .idea
-.vscode
 zmk.hex
 bootloader.hex
+.ccache/
+.cache/
 

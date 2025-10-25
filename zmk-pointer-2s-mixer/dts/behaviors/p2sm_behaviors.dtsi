@@ -1,0 +1,52 @@
+/ {
+	behaviors {
+		// 12.5% step
+		/omit-if-no-ref/ p2sm_sensitivity: p2sm_sensitivity {
+			compatible = "zmk,behavior-p2sm-sens";
+			#binding-cells = <2>;
+			display-name = "Pointer sensitivity";
+			step = <125>;
+			min-step = <1>;
+			max-step = <1000>; // 1000 is effectively equivalent to "any"
+			feedback-wrap-pattern = <0 10 65 25 65 25 65>;
+			wrap;
+		};
+
+		// 25% step; scroll
+		/omit-if-no-ref/ p2sm_scroll_sensitivity: p2sm_scroll_sensitivity {
+			compatible = "zmk,behavior-p2sm-sens";
+			#binding-cells = <2>;
+			display-name = "Scroll sensitivity";
+			step = <250>;
+			max-multiplier = <1>;
+			min-step = <1>;
+			max-step = <1000>;
+			feedback-wrap-pattern = <0 10 65 25 65 25 65>;
+			scroll;
+			wrap;
+		};
+
+		// example of sensitivity toggle option
+		/omit-if-no-ref/ p2sm_sens_toggle: p2sm_sens_toggle {
+			compatible = "zmk,behavior-p2sm-sens";
+			#binding-cells = <2>;
+			feedback-duration = <250>;
+
+			// use with 3 steps (either INC or DEC) to toggle 25/40
+			// or with one step to switch between 25/30/35/40
+			display-name = "Pointer sensitivity (5% step, 25%-40%)";
+
+			// one could even do step=1 min=250 max=400 instead of what's below;
+			// but it's not recommended because drift detection won't work then.
+			// keep step reasonable, at least 2 to ensure correct drift detection
+			step = <50>;
+			min-step = <5>;
+			max-step = <8>;
+
+			// uncomment for the behavior to be applied to scroll sensitivity
+			// scroll;
+
+			wrap;
+		};
+	};
+};

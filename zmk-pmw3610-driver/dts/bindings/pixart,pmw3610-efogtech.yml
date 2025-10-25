@@ -1,0 +1,46 @@
+description: |
+  Sensor driver for the pixart PMW3610 mouse sensor, efogtech flavor
+
+compatible: "pixart,pmw3610-efogtech"
+
+include: spi-device.yaml
+
+properties:
+  irq-gpios:
+    type: phandle-array
+    required: true
+  rst-gpios:
+    type: phandle-array
+  cpi:
+    type: int
+    default: 600
+    description: "CPI value (Range: 200 - 3200, Step: 200)"
+  evt-type:
+    type: int
+    required: true
+  x-input-code:
+    type: int
+    required: true
+  y-input-code:
+    type: int
+    required: true
+  force-awake:
+    type: boolean
+  force-high-performance:
+    type: boolean
+  enable-pm-support:
+    type: boolean
+  xy-swap:
+    type: boolean
+  x-invert:
+    type: boolean
+  y-invert:
+    type: boolean
+  init-retry-count:
+    type: int
+    default: 3
+    description: "Number of initialization retry attempts"
+  init-retry-interval:
+    type: int
+    default: 100
+    description: "Interval between initialization retries in milliseconds"

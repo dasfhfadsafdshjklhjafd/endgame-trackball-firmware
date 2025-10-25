@@ -1,0 +1,84 @@
+if ZMK_POINTING
+
+config ZMK_POINTER_2S_MIXER
+    bool "2-sensor pointer mixer"
+    default y
+    depends on INPUT
+
+endif
+
+if ZMK_POINTER_2S_MIXER
+
+config POINTER_2S_MIXER_LAZY_INIT
+  bool "Lazy init"
+  default n
+  help
+    Make all the calculations not on boot but on fist data event (useful to see logs)
+
+config POINTER_2S_MIXER_ENSURE_SYNC
+  bool "Ensure data from both sensors"
+  default y
+  help
+    Do not calculate anything until both sensors start to report data
+
+config POINTER_2S_MIXER_SYNC_WINDOW_MS
+  int "Sync window, msec"
+  default 24
+  help
+    Data from both sensors must come in this window
+
+config POINTER_2S_MIXER_REMAINDER_TTL
+  int "X/Y remainder TTL, msec"
+  default 16
+
+config POINTER_2S_MIXER_TWIST_REMAINDER_TTL
+  int "Scroll remainder TTL, msec"
+  default 32
+
+config POINTER_2S_MIXER_TWIST_FILTER_TTL
+  int "Time filter window, msec"
+  default 250
+  help
+    Singular events in this timeframe (msec) will be filtered out
+
+config POINTER_2S_MIXER_TWIST_NO_FILTER_THRES
+  int "No-filter mode duration, msec"
+  default 12
+  help
+    Do not apply threshold filters this amount of msec after previous scroll event
+
+config POINTER_2S_MIXER_DIRECTION_FILTER_EN
+  bool "Direction filter"
+  default y
+  help
+    First event in the opposite direction will be filtered out
+
+config POINTER_2S_MIXER_DIRECTION_FILTER_TTL
+    int "Direction filter value TTL, msec"
+    default 500
+
+config POINTER_2S_MIXER_34_FILTER_EN
+  bool "3/4 filter"
+  default y
+  help
+    Filter out movement events where 3 out of 4 values are below threshold
+
+config POINTER_2S_MIXER_SIGNIFICANT_MOVEMENT_MUL
+  int "Significant movement multiplier"
+  default 4
+  help
+    Helps filtering by discarding significant movement early. Keep in range 2-10
+
+config POINTER_2S_MIXER_FEEDBACK_EN
+  bool "Enable feedback"
+  default y
+
+config POINTER_2S_MIXER_SCROLL_DISABLES_POINTER
+  bool "Scroll disables pointer"
+  default n
+
+config POINTER_2S_MIXER_POINTER_AFTER_SCROLL_ACTIVATION
+  int "Period of pointer inactivity"
+  default 200
+
+endif # ZMK_POINTER_2S_MIXER

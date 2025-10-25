@@ -1,0 +1,949 @@
+ninja: Entering directory `build'
+[1/250] Building C object CMakeFiles/app.dir/home/piotr/endgame/endgame-trackball-firmware/zmk-auto-hold/src/behaviors/behavior_auto_hold.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk-auto-hold/src/behaviors/behavior_auto_hold.c:3:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[2/250] Building C object CMakeFiles/app.dir/home/piotr/endgame/endgame-trackball-firmware/zmk-pointer-2s-mixer/src/pointing/pointer_2s_mixer.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk-pointer-2s-mixer/src/pointing/pointer_2s_mixer.c:3:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[3/250] Building C object CMakeFiles/app.dir/home/piotr/endgame/endgame-trackball-firmware/zmk-pointer-2s-mixer/src/behaviors/behavior_p2sm_sens.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk-pointer-2s-mixer/src/behaviors/behavior_p2sm_sens.c:3:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[4/250] Building C object CMakeFiles/app.dir/home/piotr/endgame/endgame-trackball-firmware/zmk-axis-clamper/src/pointing/axis_clamper.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk-axis-clamper/src/pointing/axis_clamper.c:3:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[5/250] Building C object CMakeFiles/app.dir/home/piotr/endgame/endgame-trackball-firmware/zmk-report-rate-limit/src/pointing/input_processor_report_rate_limit.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk-report-rate-limit/src/pointing/input_processor_report_rate_limit.c:10:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[6/250] Building C object CMakeFiles/app.dir/home/piotr/endgame/endgame-trackball-firmware/zmk-report-rate-limit/src/behaviors/behavior_rate_limit.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk-report-rate-limit/src/behaviors/behavior_rate_limit.c:3:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[7/250] Building C object CMakeFiles/app.dir/src/stdlib.c.obj
+[8/250] Building C object CMakeFiles/app.dir/src/activity.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/activity.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[9/250] Building C object CMakeFiles/app.dir/src/behavior.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behavior.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[10/250] Building C object CMakeFiles/app.dir/src/matrix_transform.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/matrix_transform.c:8:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[11/250] Building C object CMakeFiles/app.dir/src/physical_layouts.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/physical_layouts.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[12/250] Building C object CMakeFiles/app.dir/src/sensors.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/drivers/sensor.h:25,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/sensors.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[13/250] Building C object CMakeFiles/app.dir/src/event_manager.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/event_manager.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[14/250] Building C object CMakeFiles/app.dir/src/pm.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/drivers/gpio.h:25,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/pm.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[15/250] Building C object CMakeFiles/app.dir/src/ext_power_generic.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/ext_power_generic.c:10:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[16/250] Building C object CMakeFiles/app.dir/src/gpio_key_wakeup_trigger.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/drivers/gpio.h:25,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/gpio_key_wakeup_trigger.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[17/250] Building C object CMakeFiles/app.dir/src/events/activity_state_changed.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/events/activity_state_changed.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[18/250] Building C object CMakeFiles/app.dir/src/events/position_state_changed.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/events/position_state_changed.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[19/250] Building C object CMakeFiles/app.dir/src/events/sensor_event.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/events/sensor_event.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[20/250] Building C object CMakeFiles/app.dir/src/events/usb_conn_state_changed.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/events/usb_conn_state_changed.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[21/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_reset.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_reset.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[22/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_ext_power.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_ext_power.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[23/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_soft_off.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_soft_off.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[24/250] Building C object CMakeFiles/app.dir/src/pointing/input_listener.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/pointing/input_listener.c:10:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[25/250] Building C object CMakeFiles/app.dir/src/pointing/input_processor_transform.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/pointing/input_processor_transform.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[26/250] Building C object CMakeFiles/app.dir/src/pointing/input_processor_scaler.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/pointing/input_processor_scaler.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[27/250] Building C object CMakeFiles/app.dir/src/pointing/input_processor_code_mapper.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/pointing/input_processor_code_mapper.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[28/250] Building C object CMakeFiles/app.dir/src/pointing/input_processor_behaviors.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/pointing/input_processor_behaviors.c:11:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[29/250] Building C object CMakeFiles/app.dir/src/pointing/resolution_multipliers.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/pointing/resolution_multipliers.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[30/250] Building C object CMakeFiles/app.dir/src/hid.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/include/zmk/keys.h:9,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/hid.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[31/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_key_press.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_key_press.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[32/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_key_toggle.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_key_toggle.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[33/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_hold_tap.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_hold_tap.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[34/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_sticky_key.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_sticky_key.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[35/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_caps_word.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_caps_word.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[36/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_key_repeat.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_key_repeat.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[37/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_macro.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_macro.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[38/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_momentary_layer.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_momentary_layer.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[39/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_mod_morph.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_mod_morph.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[40/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_outputs.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_outputs.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[41/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_toggle_layer.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_toggle_layer.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[42/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_to_layer.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_to_layer.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[43/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_transparent.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_transparent.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[44/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_none.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_none.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[45/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_sensor_rotate_var.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_sensor_rotate_var.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[46/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_sensor_rotate_common.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_sensor_rotate_common.c:2:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[47/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_mouse_key_press.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_mouse_key_press.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[48/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_studio_unlock.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_studio_unlock.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[49/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_input_two_axis.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_input_two_axis.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[50/250] Building C object CMakeFiles/app.dir/src/combo.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/combo.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[51/250] Building C object CMakeFiles/app.dir/src/behavior_queue.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/include/zmk/behavior_queue.h:9,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behavior_queue.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[52/250] Building C object CMakeFiles/app.dir/src/conditional_layer.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/conditional_layer.c:10:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[53/250] Building C object CMakeFiles/app.dir/src/endpoints.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/include/zmk/keys.h:9,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/include/zmk/ble.h:9,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/endpoints.c:12:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[54/250] Building C object CMakeFiles/app.dir/src/events/endpoint_changed.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/events/endpoint_changed.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[55/250] Building C object CMakeFiles/app.dir/src/hid_listener.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/include/drivers/behavior.h:13,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/hid_listener.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[56/250] Building C object CMakeFiles/app.dir/src/keymap.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/include/drivers/behavior.h:13,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/keymap.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[57/250] Building C object CMakeFiles/app.dir/src/events/layer_state_changed.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/events/layer_state_changed.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[58/250] Building C object CMakeFiles/app.dir/src/events/modifiers_state_changed.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/events/modifiers_state_changed.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[59/250] Building C object CMakeFiles/app.dir/src/events/keycode_state_changed.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/events/keycode_state_changed.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[60/250] Building C object CMakeFiles/app.dir/src/events/ble_active_profile_changed.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/events/ble_active_profile_changed.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[61/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_bt.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_bt.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[62/250] Building C object CMakeFiles/app.dir/src/ble.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/ble.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[63/250] Building C object CMakeFiles/app.dir/src/hog.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/sys/cbprintf_internal.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/sys/cbprintf.h:124,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/logging/log_msg.h:11,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/logging/log_core.h:9,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/logging/log.h:11,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/hog.c:10:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[64/250] Building C object CMakeFiles/app.dir/src/behaviors/behavior_rgb_underglow.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/behaviors/behavior_rgb_underglow.c:9:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[65/250] Building C object CMakeFiles/app.dir/src/events/battery_state_changed.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/events/battery_state_changed.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[66/250] Building C object CMakeFiles/app.dir/src/battery.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/battery.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[67/250] Building C object CMakeFiles/app.dir/src/usb.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/usb.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[68/250] Building C object CMakeFiles/app.dir/src/usb_hid.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/usb_hid.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[69/250] Building C object CMakeFiles/app.dir/src/rgb_underglow.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/rgb_underglow.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[70/250] Building C object CMakeFiles/app.dir/src/workqueue.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/workqueue.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[71/250] Building C object CMakeFiles/app.dir/src/main.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/main.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[72/250] Building C object CMakeFiles/app.dir/src/settings/reset_settings_nvs.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/settings/reset_settings_nvs.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[73/250] Building C object CMakeFiles/app.dir/proto/zmk/studio.pb.c.obj
+[74/250] Building C object CMakeFiles/app.dir/proto/zmk/meta.pb.c.obj
+[75/250] Building C object CMakeFiles/app.dir/proto/zmk/core.pb.c.obj
+[76/250] Building C object CMakeFiles/app.dir/proto/zmk/behaviors.pb.c.obj
+[77/250] Building C object CMakeFiles/app.dir/proto/zmk/keymap.pb.c.obj
+[78/250] Building C object CMakeFiles/app.dir/src/studio/msg_framing.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/sys/cbprintf_internal.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/sys/cbprintf.h:124,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/logging/log_msg.h:11,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/logging/log_core.h:9,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/logging/log.h:11,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/studio/msg_framing.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[79/250] Building C object CMakeFiles/app.dir/src/studio/rpc.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/studio/msg_framing.h:9,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/studio/rpc.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[80/250] Building C object CMakeFiles/app.dir/src/studio/core.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/include/zmk/event_manager.h:10,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/include/zmk/studio/core.h:9,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/studio/core.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[81/250] Building C object CMakeFiles/app.dir/src/studio/behavior_subsystem.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/sys/cbprintf_internal.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/sys/cbprintf.h:124,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/logging/log_msg.h:11,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/logging/log_core.h:9,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/logging/log.h:11,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/studio/behavior_subsystem.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[82/250] Building C object CMakeFiles/app.dir/src/studio/core_subsystem.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/drivers/hwinfo.h:27,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/studio/core_subsystem.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[83/250] Building C object CMakeFiles/app.dir/src/studio/keymap_subsystem.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/sys/cbprintf_internal.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/sys/cbprintf.h:124,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/logging/log_msg.h:11,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/logging/log_core.h:9,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/logging/log.h:11,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/studio/keymap_subsystem.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[84/250] Building C object CMakeFiles/app.dir/src/studio/uart_rpc_transport.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel_includes.h:37,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/kernel.h:17,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/studio/uart_rpc_transport.c:8:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[85/250] Building C object CMakeFiles/app.dir/src/studio/gatt_rpc_transport.c.obj
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/device.h:12,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/app/src/studio/gatt_rpc_transport.c:7:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+[86/250] Linking C static library app/libapp.a
+[87/250] Building C object zephyr/CMakeFiles/zephyr_pre0.dir/misc/empty_file.c.obj
+[88/250] Building C object zephyr/lib/libc/picolibc/CMakeFiles/lib__libc__picolibc.dir/libc-hooks.c.obj
+FAILED: zephyr/lib/libc/picolibc/CMakeFiles/lib__libc__picolibc.dir/libc-hooks.c.obj 
+ccache /home/piotr/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -DKERNEL -DNRF52833_XXAA -DPB_MAX_REQUIRED_FIELDS=64 -DPB_NO_ENCODE_SIZE_CHECK -DPB_NO_ERRMSG -DPB_WITHOUT_64BIT -DPICOLIBC_INTEGER_PRINTF_SCANF -D_FORTIFY_SOURCE=1 -D_POSIX_C_SOURCE=200809 -D__LINUX_ERRNO_EXTENSIONS__ -D__PROGRAM_START -D__ZEPHYR__=1 -I/home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include -I/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated -I/home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/soc/arm/nordic_nrf/nrf52 -I/home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/soc/arm/nordic_nrf/common/. -I/home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/subsys/usb/device -I/home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/nrfx_glue -I/home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/subsys/bluetooth -I/home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/subsys/settings/include -I/home/piotr/endgame/endgame-trackball-firmware/zmk/modules/lib/nanopb -I/home/piotr/endgame/endgame-trackball-firmware/zmk/modules/hal/cmsis/CMSIS/Core/Include -I/home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/modules/cmsis/. -I/home/piotr/endgame/endgame-trackball-firmware/zmk/modules/hal/nordic/nrfx -I/home/piotr/endgame/endgame-trackball-firmware/zmk/modules/hal/nordic/nrfx/drivers/include -I/home/piotr/endgame/endgame-trackball-firmware/zmk/modules/hal/nordic/nrfx/mdk -I/home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/modules/hal_nordic/nrfx/. -I/home/piotr/endgame/endgame-trackball-firmware/zmk/modules/crypto/tinycrypt/lib/include -I/home/piotr/endgame/endgame-trackball-firmware/zmk/app/include -I/home/piotr/endgame/endgame-trackball-firmware/zmk-pointer-2s-mixer/include -I/home/piotr/endgame/endgame-trackball-firmware/zmk-report-rate-limit/include -I/home/piotr/endgame/endgame-trackball-firmware/zmk-ec11-ish-driver/src/. -I/home/piotr/endgame/endgame-trackball-firmware/zmk/app/module/include -I/home/piotr/endgame/endgame-trackball-firmware/zmk/app/module/drivers/sensor/battery/. -I/home/piotr/endgame/endgame-trackball-firmware/zmk/app/module/drivers/sensor/ec11/. -Wshadow -fno-strict-aliasing -O2 -imacros /home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/autoconf.h -fno-printf-return-value -fno-common -g -gdwarf-4 -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mabi=aapcs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mfp16-format=ieee --sysroot=/home/piotr/zephyr-sdk-0.17.4/arm-zephyr-eabi/arm-zephyr-eabi -imacros /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/toolchain/zephyr_stdint.h -Wall -Wformat -Wformat-security -Wno-format-zero-length -Wno-pointer-sign -Wpointer-arith -Wexpansion-to-defined -Wno-unused-but-set-variable -Werror=implicit-int -fno-pic -fno-pie -fno-asynchronous-unwind-tables -ftls-model=local-exec -fno-reorder-functions --param=min-pagesize=0 -fno-defer-pop -fmacro-prefix-map=/home/piotr/endgame/endgame-trackball-firmware/zmk/app=CMAKE_SOURCE_DIR -fmacro-prefix-map=/home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr=ZEPHYR_BASE -fmacro-prefix-map=/home/piotr/endgame/endgame-trackball-firmware/zmk=WEST_TOPDIR -ffunction-sections -fdata-sections --specs=picolibc.specs -std=c99 -Wfatal-errors -MD -MT zephyr/lib/libc/picolibc/CMakeFiles/lib__libc__picolibc.dir/libc-hooks.c.obj -MF zephyr/lib/libc/picolibc/CMakeFiles/lib__libc__picolibc.dir/libc-hooks.c.obj.d -o zephyr/lib/libc/picolibc/CMakeFiles/lib__libc__picolibc.dir/libc-hooks.c.obj -c /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/lib/libc/picolibc/libc-hooks.c
+In file included from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/devicetree.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/arm/arch.h:20,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/include/zephyr/arch/cpu.h:19,
+                 from /home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/lib/libc/picolibc/libc-hooks.c:12:
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:8262: warning: "DT_N_NODELABEL_ext_power" redefined
+ 8262 | #define DT_N_NODELABEL_ext_power           DT_N_S_behaviors_S_extpower
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/build/zephyr/include/generated/devicetree_generated.h:651: note: this is the location of the previous definition
+  651 | #define DT_N_NODELABEL_ext_power          DT_N_S_ext_power
+      | 
+/home/piotr/endgame/endgame-trackball-firmware/zmk/zephyr/lib/libc/picolibc/libc-hooks.c:143:6: error: conflicting types for '__retarget_lock_init_recursive'; have 'void(void **)'
+  143 | void __retarget_lock_init_recursive(_LOCK_T *lock)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated due to -Wfatal-errors.
+ninja: build stopped: subcommand failed.

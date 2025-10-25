@@ -13,12 +13,20 @@
 3. `west init -l app`
 4. `west update`
 
-Now, staying in the `zmk` directory, build with west:
+Now, staying in the `zmk` directory, build with west. Always point `ZMK_CONFIG` at the in-repo module (`../endgame-trackball-config`) and request a pristine build when changing those arguments so CMake reloads the config.
+
 ```shell
-west build -s app -b efogtech_trackball_0 -S studio-rpc-usb-uart -S zmk-usb-logging -- -DZMK_EXTRA_MODULES="$(pwd)/../endgame-trackball-config;$(pwd)/../zmk-pmw3610-driver;$(pwd)/../zmk-pointer-2s-mixer;$(pwd)/../zmk-axis-clamper;$(pwd)/../zmk-input-processor-report-rate-limit;$(pwd)/../zmk-ec11-ish-driver;$(pwd)/../zmk-auto-hold;" -DCONFIG_ZMK_STUDIO=y -DZMK_CONFIG="$(pwd)/../endgame-trackball-config/config"
+EXTRA_MODULES="$(pwd)/../endgame-trackball-config;$(pwd)/../zmk-pmw3610-driver;$(pwd)/../zmk-pointer-2s-mixer;$(pwd)/../zmk-axis-clamper;$(pwd)/../zmk-report-rate-limit;$(pwd)/../zmk-ec11-ish-driver;$(pwd)/../zmk-auto-hold"
+west build -s app -d build/default -p -b efogtech_trackball_0 -S studio-rpc-usb-uart -S zmk-usb-logging -- -DZMK_EXTRA_MODULES="${EXTRA_MODULES}" -DZMK_CONFIG="$(pwd)/../endgame-trackball-config" -DCONFIG_ZMK_STUDIO=y
 ```
 
-Look for `build/zephyr/zmk.uf2` — it's your firmware.
+Single-sensor builds (loads `config/single_sensor.{overlay,conf}`) only need an extra `-DSHIELD` selection and a unique build directory:
+
+```shell
+west build -s app -d build/single_sensor -p -b efogtech_trackball_0 -S studio-rpc-usb-uart -S zmk-usb-logging -- -DZMK_EXTRA_MODULES="${EXTRA_MODULES}" -DZMK_CONFIG="$(pwd)/../endgame-trackball-config" -DSHIELD=single_sensor -DCONFIG_ZMK_STUDIO=y
+```
+
+Look for `build/<target>/zephyr/zmk.uf2` — it's your firmware.
 
 #### GitHub Actions
 Fork the `endgame-trackball-config` repository. Any commit will trigger an action that will build the firmware for you.

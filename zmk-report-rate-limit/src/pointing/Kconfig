@@ -1,0 +1,18 @@
+# Copyright (c) 2023 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if ZMK_POINTING
+
+config ZMK_INPUT_PROCESSOR_REPORT_RATE_LIMIT
+bool "Pointer rate limiter"
+default y
+
+config ZMK_INPUT_PROCESSOR_REPORT_RATE_LIMIT_DEFAULT
+int "Rate limiter default sync window, msec"
+default 8
+
+config ZIP_RRL_SETTINGS_SAVE_DELAY
+int "Settings save debounce, msec"
+default 2500
+
+endif

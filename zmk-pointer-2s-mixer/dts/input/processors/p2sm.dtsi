@@ -1,0 +1,8 @@
+/ {
+    /omit-if-no-ref/ zip_2s_mixer: zip_2s_mixer {
+        compatible = "zmk,pointer-2s-mixer";
+        #input-processor-cells = <1>;
+        sync-report-ms = <1>;
+        sync-scroll-report-ms = <8>;
+    };
+};

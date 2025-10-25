@@ -1,0 +1,82 @@
+description: Input Processor for mixing readings from two mouse sensors
+compatible: "zmk,pointer-2s-mixer"
+include: ip_one_param.yaml
+
+properties:
+  sync-report-ms:
+    type: int
+    required: true
+    default: 2
+  sync-scroll-report-ms:
+    type: int
+    required: true
+    default: 8
+
+  # CPI and sync-scroll-report-ms dependent!
+  # Smaller value = less interference
+  twist-interference-thres:
+    type: int
+    required: true
+    default: 10
+
+  # CPI and sync-scroll-report-ms dependent!
+  # Filters out twist movements smaller than N points
+  twist-thres:
+    type: int
+    required: true
+    default: 4
+
+  # Zero = down left bottom (NOT BALL CENTER)
+  sensor1-pos:
+    type: uint8-array
+    required: true
+    default: [ (0), (80), (0) ]
+  sensor2-pos:
+    type: uint8-array
+    required: true
+    default: [ (ff), (80), (0) ]
+  ball-radius:
+    type: int
+    required: true
+    default: 120
+
+  feedback-gpios:
+    type: phandle-array
+  feedback-extra-gpios:
+    type: phandle-array
+  twist-feedback-threshold:
+    type: int
+    default: 100
+  twist-feedback-duration:
+    type: int
+    default: 0
+  twist-feedback-delay:
+    type: int
+    default: 5
+
+  single-sensor-mode:
+    type: boolean
+    description: >
+      Allow operation with only sensor1 active. Twist detection and
+      synchronization requirements are skipped; all movement comes from the
+      primary sensor.
+
+  single-sensor-primary:
+    type: int
+    enum:
+      - 1
+      - 2
+    default: 1
+    description: >
+      Which physical sensor to treat as the active one when single-sensor-mode
+      is enabled. Use 1 for the primary (SPI0) sensor, 2 for the secondary (SPI1)
+      sensor.
+
+  single-sensor-transform:
+    type: array
+    description: >
+      Optional 2x2 transform matrix (a, b, c, d) applied to the active single
+      sensor after geometry rotation. Values are expressed in milli-units
+      (1000 = 1.0) to allow fine-grained scaling, rotation, and shear
+      adjustments. Provide four ints and leave unset to keep the existing
+      spherical projection.

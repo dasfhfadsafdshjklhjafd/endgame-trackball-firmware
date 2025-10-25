@@ -1,0 +1,13 @@
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_SINGLE_SENSOR
+
+config EFOGTECH_TRACKBALL_PMW3610_EXTRA_WAKE_DELAY
+	def_bool y
+
+config EFOGTECH_TRACKBALL_PMW3610_EXTRA_WAKE_DELAY_MS
+	int "Extra PMW3610 wake delay (ms)"
+	default 100
+
+endif
