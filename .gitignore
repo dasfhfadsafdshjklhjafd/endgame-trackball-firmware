@@ -2,4 +2,8 @@
 .vscode
 zmk.hex
 bootloader.hex
-
+.cache/
+.ccache/
+*.BROKEN/
+*.BAK/
+zmk.workspace-old/
