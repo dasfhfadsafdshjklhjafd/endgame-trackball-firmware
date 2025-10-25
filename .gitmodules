@@ -6,7 +6,7 @@
 	url = git@github.com:efogdev/trackball-zmk-config.git
 [submodule "zmk-pointer-2s-mixer"]
 	path = zmk-pointer-2s-mixer
-	url = git@github.com:efogdev/zmk-pointer-2s-mixer.git
+	url = git@github.com:dasfhfadsafdshjklhjafd/zmk-pointer-2s-mixer.git
 [submodule "trackball-bootloader"]
 	path = trackball-bootloader
 	url = git@github.com:efogdev/trackball-bootloader.git
@@ -15,7 +15,7 @@
 	url = git@github.com:efogdev/zmk-pmw3610-driver.git
 [submodule "endgame-trackball-config"]
 	path = endgame-trackball-config
-	url = git@github.com:efogtech/endgame-trackball-config.git
+	url = git@github.com:dasfhfadsafdshjklhjafd/endgame-trackball-config.git
 [submodule "endgame-trackball-bootloader"]
 	path = endgame-trackball-bootloader
 	url = git@github.com:efogtech/endgame-trackball-bootloader.git
