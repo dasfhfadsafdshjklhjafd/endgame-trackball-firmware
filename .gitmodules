@@ -35,3 +35,7 @@
 	path = zmk-auto-hold
 	url = git@github.com:efogdev/zmk-auto-hold.git
 	branch = main
+[submodule "zmk-trigger-on-boot"]
+	path = zmk-trigger-on-boot
+	url = git@github.com:efogdev/zmk-trigger-on-boot.git
+	branch = main
